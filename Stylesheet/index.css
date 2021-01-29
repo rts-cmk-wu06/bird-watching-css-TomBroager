@@ -41,7 +41,7 @@ html, body {
     font-size: 3rem;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
   
   h3 {
@@ -81,14 +81,14 @@ html, body {
     display: block;
     height: 80px;
     padding-top: 35.15px;
-    margin-left: -25%;
-    padding-right: 25%;
   }
   
   nav {
     height: 50px;
     flex: 100%;
     display: flex;
+    border: solid 2px rgb(3, 63, 143);
+    border-radius: 15px 15px 15px 15px;
   }
   
   nav ul {
@@ -123,12 +123,14 @@ html, body {
   
   article {
     flex: 4;
+    padding: 1%;
     border: solid 2px rgb(3, 63, 143);
-    padding-bottom: 50px;
+    border-radius: 15px 0px 0px 15px;
   }
 
   section {
       padding: 2%;
+      text-align: center;
   }
   
   aside {
@@ -136,6 +138,7 @@ html, body {
     margin-left: 10px;
     padding: 1%;
     border: solid 2px rgb(3, 63, 143);
+    border-radius: 0px 15px 15px 0px;
   }
   
   aside a {
@@ -162,4 +165,27 @@ html, body {
     border-top: 2px solid red;
     text-align: center;
     height: 0px;
+}
+.box{
+  width: auto;
+  height: 300px;
+  margin-top: 0px;
+  border: solid 2px rgb(3, 63, 143);
+  border-radius: 0px 0px 0px 15px;
+  background-image: url(../images/flock-of-birds-and-beach.jpg);
+  background-size: cover;
+  background-color: rgba(7, 161, 250, 0.459);
+  background-blend-mode: multiply;
+}
+.birdimage {
+  width: auto;
+  height: 200px;
+  margin-top: 48px;
+  border: solid 2px rgb(3, 63, 143);
+  border-radius: 0px 0px 15px 0px;
+  
+}
+
+.birdlogo {
+  padding: 0px 50px 0px 50px;
 }
